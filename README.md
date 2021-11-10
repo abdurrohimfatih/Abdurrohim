@@ -1,2 +1,2 @@
 # Abdurrohim
-Repository untuk Latihan dan Tugas Pemrograman Dasar Semester 1
+Repository untuk Tes, Latihan, dan Tugas Pemrograman Dasar Semester 1

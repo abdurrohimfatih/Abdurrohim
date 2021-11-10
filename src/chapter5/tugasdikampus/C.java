@@ -8,8 +8,8 @@ public class C {
         while (j <= 38) {
             while (i <= 200) {
                 System.out.print(i + " ");
-                i = i + j;
-                j = j + 4;
+                i += j;
+                j += 4;
             }
         }
     }

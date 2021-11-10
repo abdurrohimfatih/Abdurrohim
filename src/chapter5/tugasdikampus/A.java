@@ -6,7 +6,7 @@ public class A {
 
         do {
             System.out.print(i + " ");
-            i = i + 3;
+            i += 3;
         } while ( i < 23);
     }
 }

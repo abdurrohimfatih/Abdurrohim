@@ -19,13 +19,13 @@ public class Soal51 {
             System.exit(1);
         }
 
-        while (number != 0) {
+        do {
             if (number > 0) positives++;
             else negatives++;
             total += number;
             count++;
             number = input.nextInt();
-        }
+        } while (number != 0);
 
         double average = total / count;
 

@@ -1,4 +1,4 @@
-package chapter5.tugasdikampus;
+package chapter5.tesdikampus;
 
 public class C {
     public static void main(String[] args) {

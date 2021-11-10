@@ -30,9 +30,9 @@ public class Soal51 {
         double average = total / count;
 
 //        Tampilkan hasilnya
-        System.out.println("The number of positives is " + positives +
-                "\nThe number of negatives is " + negatives +
-                "\nThe total is total " + total +
-                "\nThe average is " + average);
+        System.out.println("The number of positives is " + positives);
+        System.out.println("The number of negatives is " + negatives);
+        System.out.println("The total is total " + total);
+        System.out.println("The average is " + average);
     }
 }

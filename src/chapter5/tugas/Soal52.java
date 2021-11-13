@@ -8,12 +8,12 @@ public class Soal52 {
         int correctCount = 0;
         int count = 0;
         long startTime = System.currentTimeMillis();
-        StringBuilder output = new StringBuilder(" ");
+        StringBuilder output = new StringBuilder();
         Scanner input = new Scanner(System.in);
 
         while (count < NUMBER_OF_QUESTIONS) {
-                int number1 = (int) (1 + (Math.random() * (15 - 1)));
-                int number2 = (int) (1 + (Math.random() * (15 - 1)));
+                int number1 = (int) (1 + (Math.random() * 15));
+                int number2 = (int) (1 + (Math.random() * 15));
 
             if (number1 < number2) {
                 int temp = number1;
@@ -35,8 +35,8 @@ public class Soal52 {
 
             count++;
 
-            output.append("\n").append(number1).append(" - ").append(number2).append(" = ")
-                    .append(answer).append((number1 - number2 == answer) ? "     correct" : "     wrong");
+            output.append("\n").append(number1).append(" - ").append(number2).append(" = ").append(answer)
+                    .append((number1 - number2 == answer) ? "       correct" : "        wrong");
         }
 
         long endTime = System.currentTimeMillis();

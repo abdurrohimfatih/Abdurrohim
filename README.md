@@ -1,2 +1,2 @@
 # Abdurrohim
-Repository untuk `Testing`, `Latihan`, dan `Tugas` Pemrograman Dasar Semester 1
+Repository untuk `Coba`, `Latihan`, `Tugas di Kampus`, dan `Tugas di Rumah` mata kuiah `Pemrograman Dasar` Semester 1

@@ -2,7 +2,7 @@ package chapter5.tesdikampus;
 
 import java.util.Scanner;
 
-public class MaxMethod {
+public class MaxMethod2Numbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

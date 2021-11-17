@@ -35,8 +35,8 @@ public class Soal52 {
 
             count++;
 
-            output.append("\n").append(number1).append(" - ").append(number2).append(" = ").append(answer)
-                    .append((number1 - number2 == answer) ? "       correct" : "        wrong");
+            output.append("\n").append(number1).append("\t-\t").append(number2).append("\t=\t").append(answer)
+                    .append((number1 - number2 == answer) ? "\t\tcorrect" : "\t\twrong");
         }
 
         long endTime = System.currentTimeMillis();

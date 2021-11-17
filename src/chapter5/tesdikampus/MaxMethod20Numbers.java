@@ -7,7 +7,7 @@ public class MaxMethod20Numbers {
         Scanner input = new Scanner(System.in);
         int result = 0, number;
 
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 20; i++) {
             System.out.print("Masukkan bilangan ke-" + i + ": ");
             number = input.nextInt();
 

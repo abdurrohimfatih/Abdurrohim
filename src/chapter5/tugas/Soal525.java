@@ -13,7 +13,7 @@ public class Soal525 {
 
             double pi = 4 * sum;
 
-            System.out.println("Nilai PI untuk i = " + (int) i + " is " + pi);
+            System.out.println("Nilai PI untuk i = " + (int) i + " adalah " + pi);
         }
     }
 }

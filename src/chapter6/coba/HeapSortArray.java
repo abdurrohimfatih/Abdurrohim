@@ -12,15 +12,16 @@ public class HeapSortArray {
             a[i] = input.nextInt();
         }
 
-        System.out.print("\nThe numbers is\t\t");
-        for (int j : a) {
-            System.out.print(j + " ");
-        }
+        System.out.print("\nThe numbers is\t");
+        printNumbers(a);
 
 //        Mencetak heapSort
         heapSort(a);
+        System.out.print("\nHeap sort is\t");
+        printHeapSort(a);
+    }
 
-        System.out.print("\nHeap sort is\t\t");
+    public static void printNumbers(int[] a) {
         for (int i : a) {
             System.out.print(i + " ");
         }
@@ -58,6 +59,12 @@ public class HeapSortArray {
             a[largest] = temp;
 
             heapify(a, n, largest);
+        }
+    }
+
+    public static void printHeapSort(int[] a) {
+        for (int i : a) {
+            System.out.print(i + " ");
         }
     }
 }

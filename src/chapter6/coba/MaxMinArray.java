@@ -12,29 +12,51 @@ public class MaxMinArray {
             a[i] = input.nextInt();
         }
 
-        for (int j : a) {
-            System.out.print(j + " ");
-        }
+        System.out.print("\nThe numbers is\t\t");
+        printNumbers(a);
 
+        System.out.println("\nThe largest is\t\t" + largest(a));
+        System.out.println("The smallest is\t\t" + smallest(a));
+        System.out.println("The total is\t\t" + total(a));
+    }
+
+    public static void printNumbers(int[] a) {
+        for (int i : a) {
+            System.out.print(i + " ");
+        }
+    }
+
+    public static int largest(int[] a) {
         int largest = a[1];
+
+        for (int i : a) {
+            if (i > largest) {
+                largest = i;
+            }
+        }
+
+        return largest;
+    }
+
+    public static int smallest(int[] a) {
         int smallest = a[1];
-        for (int j : a) {
-            if (j > largest) {
-                largest = j;
-            }
 
-            if (j < smallest) {
-                smallest = j;
+        for (int i : a) {
+            if (i < smallest) {
+                smallest = i;
             }
         }
 
+        return smallest;
+    }
+
+    public static int total(int[] a) {
         int total = 0;
-        for (int j : a) {
-            total += j;
+
+        for (int i : a) {
+            total += i;
         }
 
-        System.out.println("\nThe largest is " + largest);
-        System.out.println("The smallest is " + smallest);
-        System.out.println("The total is " + total);
+        return total;
     }
 }

@@ -13,15 +13,16 @@ public class SelectionSortArray {
         }
 
         System.out.print("\nThe numbers is\t\t");
-        for (int j : a) {
-            System.out.print(j + " ");
-        }
+        printNumbers(a);
 
 //        Mencetak selectionSort
-        int[] x = selectionSort(a);
-
+        selectionSort(a);
         System.out.print("\nSelection sort is\t");
-        for (int i : x) {
+        printSelectionSort(a);
+    }
+
+    public static void printNumbers(int[] a) {
+        for (int i : a) {
             System.out.print(i + " ");
         }
     }
@@ -40,5 +41,11 @@ public class SelectionSortArray {
         }
 
         return a;
+    }
+
+    public static void printSelectionSort(int[] a) {
+        for (int i : a) {
+            System.out.print(i + " ");
+        }
     }
 }

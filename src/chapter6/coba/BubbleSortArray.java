@@ -12,15 +12,16 @@ public class BubbleSortArray {
             a[i] = input.nextInt();
         }
 
-        System.out.print("\nThe numbers is\t\t");
-        for (int j : a) {
-            System.out.print(j + " ");
-        }
+        System.out.print("\nThe numbers is\t");
+        printNumbers(a);
 
 //        Mencetak bubbleSort
         bubbleSort(a);
+        System.out.print("\nBubble sort is\t");
+        printBubbleSort(a);
+    }
 
-        System.out.print("\nBubble sort is\t\t");
+    public static void printNumbers(int[] a) {
         for (int i : a) {
             System.out.print(i + " ");
         }
@@ -35,6 +36,12 @@ public class BubbleSortArray {
                     a[j+1] = temp;
                 }
             }
+        }
+    }
+
+    public static void printBubbleSort(int[] a) {
+        for (int i : a) {
+            System.out.print(i + " ");
         }
     }
 }

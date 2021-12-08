@@ -1,4 +1,4 @@
-package tugasakhir.quiz1;
+package tugasakhir.exercise2;
 
 import java.util.Scanner;
 

@@ -1,15 +1,15 @@
-package chapter5.tugas;
+package tugasakhir.exercise5;
 
 import java.util.Scanner;
 
-public class Soal541 {
+public class OccurrenceOfMaxNumbers {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int count = 1;
+        int max = 0;
 
         System.out.print("Enter numbers: ");
         int number = input.nextInt();
-        int count = 1;
-        int max = 0;
 
         if (number == 0) {
             System.out.println("No numbers are entered except 0");
@@ -23,6 +23,7 @@ public class Soal541 {
             else if (number == max) {
                 count++;
             }
+
             number = input.nextInt();
         }
 

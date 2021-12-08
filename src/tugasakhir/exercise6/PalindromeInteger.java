@@ -12,10 +12,6 @@ public class PalindromeInteger {
         System.out.println(number + (isPalindrome(number) ? " is " : " is not ") + "a palindrome");
     }
 
-    public static boolean isPalindrome(int number) {
-        return number == reverse(number);
-    }
-
     public static int reverse(int number) {
         String reverse = "";
         String n = number + "";             // Untuk convert number menjadi String
@@ -26,5 +22,9 @@ public class PalindromeInteger {
         }
 
         return Integer.parseInt(reverse);
+    }
+
+    public static boolean isPalindrome(int number) {
+        return number == reverse(number);
     }
 }

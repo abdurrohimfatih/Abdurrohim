@@ -19,6 +19,6 @@ public class PentagonalNumbers {
     }
 
     public static int getHexagonalNumber(int n) {
-        return (2 * n * (2 * n - 1)) / 2;
+        return n * (2 * n - 1);
     }
 }

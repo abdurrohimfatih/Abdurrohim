@@ -8,7 +8,7 @@ public class Soal541 {
 
         System.out.print("Enter numbers: ");
         int number = input.nextInt();
-        int count = 1;
+        int count = 0;
         int max = 0;
 
         if (number == 0) {
@@ -19,6 +19,7 @@ public class Soal541 {
         while (number != 0) {
             if (number > max) {
                 max = number;
+                count = 1;
             }
             else if (number == max) {
                 count++;
